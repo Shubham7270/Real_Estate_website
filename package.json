@@ -1,15 +1,19 @@
 {
+  "homepage": "https://Shubham7270.github.io/Real_Estate_website",
   "name": "realestate",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^10.8.5",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-accessible-accordion": "^5.0.0",
     "react-countup": "^6.4.2",
